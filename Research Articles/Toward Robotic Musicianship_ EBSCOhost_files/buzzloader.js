@@ -1,0 +1,2 @@
+var ep = window.ep || {}; ep.bundles = ep.bundles || []; ep.bundles = ep.bundles.concat('bundled/buzzloader.js','ep/util/buzzloader.js');
+(function(b){window.buzz={session:{disableContextMenus:function(a){var d=_.values(a).join(", ");b("html").on("contextmenu CheckAvailabilityOnLoad",d,function(c){c.preventDefault()})}}}})(jQuery);
